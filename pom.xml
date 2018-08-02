@@ -14,9 +14,11 @@
     </parent>
     <profiles>
         <profile>
+            <properties>
             <id>sonar</id>
-            <url>http://ec2-13-59-55-45.us-east-2.compute.amazonaws.com:9000</url>
-            </profile>
+            <sonar.host.url>http://ec2-13-59-55-45.us-east-2.compute.amazonaws.com:9000</sonar.host.url>
+            </properties>
+                </profile>
         </profiles>
     <dependencies>
         <dependency>
