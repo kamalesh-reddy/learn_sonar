@@ -13,13 +13,16 @@
         <version>1.5.8.RELEASE</version>
     </parent>
     <profiles>
-        <profile>
-            <properties>
-            <id>sonar</id>
-            <sonar.host.url>http://13.59.55.45:9000</sonar.host.url>
-            </properties>
-                </profile>
-        </profiles>
+<profile>
+<id>sonar</id>
+<properties>
+<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<sonar.host.url>
+http://18.220.196.243:9000
+</sonar.host.url>
+</properties>
+</profile>
+</profiles>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
